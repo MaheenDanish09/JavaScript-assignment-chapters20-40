@@ -1,0 +1,10 @@
+//////////MATH METHODS//////////
+
+// QUESTION 1 //
+// QUESTION 2 //
+// QUESTION 3 //
+// QUESTION 4 //
+// QUESTION 5 //
+// QUESTION 6 //
+// QUESTION 7 //
+// QUESTION 8 //
