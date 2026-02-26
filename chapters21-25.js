@@ -63,10 +63,40 @@
 // document.writeln("Number: " + num + "<br>" + "Result: " + result);
 
 // QUESTION 13 //
-
+// var input = prompt("Enter your username");
+// if(/[@.,!]/.test(input)){
+// alert("Please enter a valid username");
+// document.writeln("! =", '!'.charCodeAt(0) + "<br>"); 
+// document.writeln(", =", ','.charCodeAt(0) + "<br>"); 
+// document.writeln(". =", '.'.charCodeAt(0) + "<br>"); 
+// document.writeln("@ =", '@'.charCodeAt(0));
+// }else{
+    // alert("Valid username: " + input);
+// }
 
 // QUESTION 14 //
+// var A = ["cake" , "apple pie" , "cookie" , "chips" , "patties"];
+// var userInput = prompt("Welcome to ABC Bakery!\nWhat would you like to order?");
+// var searchItem = userInput.toLowerCase();
+// var found = false;
+// var index;
+// for(var i = 0;i < A.length;i++){
+    // if(A[i].toLowerCase() === searchItem){
+        // found = true;
+        // index = i;
+        // break;
+    // }
+// }
+// if (found) {
+    // alert(userInput + " is available at index " + index + " in our bakery.");
+// } else {
+    // alert("We are sorry. " + userInput + " is not available in our bakery.");
+// }
+
 // QUESTION 15 //
+// let password = prompt("Enter a password");
+// if()
+
 // QUESTION 16 //
 // QUESTION 17 //
 // QUESTION 18 //
