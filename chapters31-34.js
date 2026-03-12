@@ -44,6 +44,10 @@
 // document.writeln("Later Date: " + laterDate);
 
 // QUESTION 9 //
+// var ramadanStart = new Date("February 18, 2026");
+// var today = new Date();
+// var daysPassed = Math.floor((today - ramadanStart)/(1000 * 60 * 60 * 24));
+// document.writeln(daysPassed + " days have passed since 1st Ramadan");
 
 // QUESTION 10 //
 // var referenceDate = new Date();
@@ -52,6 +56,30 @@
 // document.writeln("On reference date " + referenceDate + ",<br>" + Math.floor(difference/1000) + " seconds have passed since beginning of 2026");
 
 // QUESTION 11 //
+// var date = new Date();
+// var time = date.getHours();
+// date.setHours(time - 1);
+// document.writeln("Current Date: " + new Date() + "<br>" + "1 hour ago,it was " + date);
+
 // QUESTION 12 //
+// var date = new Date();
+// var setBackDate = date.getFullYear();
+// date.setFullYear(setBackDate - 100);
+// document.writeln("Current Date: " + new Date() + "<br>" + "100 years back,it was " + date);
+
 // QUESTION 13 //
+// let age = prompt("Enter your age");
+// let currentYear = new Date().getFullYear();
+// let birthYear = currentYear - age;
+// document.writeln("Your age is " + age + "<br>" + "Your birth year is " + birthYear);
+
 // QUESTION 14 //
+// document.writeln("<h1>K-Electric Bill</h1>");
+// let userName = "Maheen";
+// let month ="March";
+// let units = 410;
+// let charges = 16;
+// let netAmntPayable = units * charges; 
+// let paySurcharge = 350;
+// let grossAmntPayable = netAmntPayable + paySurcharge;
+// document.writeln("Customer name: " + userName + "<br>" + "Current month: " + month + "<br>" + "Number of units: " + units + "<br>" + "Charges per unit: " + charges + "<br><br>" + "Net Amount Payable (within Due Date): " + netAmntPayable + "<br>" + "Late payment surcharge: " + paySurcharge + "<br>" + "Gross Amount Payable (after Due Date): " + grossAmntPayable);
