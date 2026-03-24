@@ -94,9 +94,51 @@
 // }
 
 // QUESTION 15 //
-// let password = prompt("Enter a password");
-// if()
+// var password = prompt("Enter your password");
+// var hasAlphabet = false;
+// var hasNumber = false;
+// var charCode = password.charCodeAt(0);
+// if(charCode >= 48 && charCode <= 57){
+    // alert("Password should not start with a number");
+// }else if(password.length < 6){
+    // alert("Password should be atleast 6 characters long");
+// }else{
+    // for(var i = 0; i < password.length; i++){
+        // var code = password.charCodeAt(i);
+        // if ((code >= 65 && code <= 90) || (code >= 97 && code <= 122)){
+            // hasAlphabet = true;
+        // }else if (code >= 48 && code <= 57){
+            // hasNumber = true;
+        // }
+    // }
+    // if(hasAlphabet && hasNumber){
+        // alert("Valid Password!");
+    // }else{
+        // alert("Please enter a valid password");
+    // }
+// }
 
 // QUESTION 16 //
+// var university = "University Of Karachi";
+// var arr = university.split("");
+// for(var i = 0; i < arr.length; i++){
+    // document.writeln(arr[i] + "<br>");
+// }
+
 // QUESTION 17 //
+// var userInput = prompt("Enter a string");
+// if(userInput.length > 0){
+    // var lastCharacter = userInput[userInput.length - 1];
+    // document.writeln("User Input: " + userInput + "<br>" + "Last character of input: " + lastCharacter);
+// }
+
 // QUESTION 18 //
+// var str = "The quick brown fox jumps over the lazy dog";
+// var lowerStr = str.toLowerCase();
+// var words = lowerStr.split(" ");
+// var count = 0;
+// for(var i = 0; i < words.length; i++){
+    // if(words[i] === "the"){
+        // count++;
+    // }}
+    // document.writeln("Text: " + str + "<br>" + "There are "+ count + " occurences of the word 'the'");
