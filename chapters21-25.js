@@ -66,12 +66,12 @@
 // var input = prompt("Enter your username");
 // if(/[@.,!]/.test(input)){
 // alert("Please enter a valid username");
-// document.writeln("! =", '!'.charCodeAt(0) + "<br>"); 
-// document.writeln(", =", ','.charCodeAt(0) + "<br>"); 
-// document.writeln(". =", '.'.charCodeAt(0) + "<br>"); 
+// document.writeln("! =", '!'.charCodeAt(0) + "<br>");
+// document.writeln(", =", ','.charCodeAt(0) + "<br>");
+// document.writeln(". =", '.'.charCodeAt(0) + "<br>");
 // document.writeln("@ =", '@'.charCodeAt(0));
 // }else{
-    // alert("Valid username: " + input);
+// alert("Valid username: " + input);
 // }
 
 // QUESTION 14 //
@@ -81,16 +81,16 @@
 // var found = false;
 // var index;
 // for(var i = 0;i < A.length;i++){
-    // if(A[i].toLowerCase() === searchItem){
-        // found = true;
-        // index = i;
-        // break;
-    // }
+// if(A[i].toLowerCase() === searchItem){
+// found = true;
+// index = i;
+// break;
+// }
 // }
 // if (found) {
-    // alert(userInput + " is available at index " + index + " in our bakery.");
+// alert(userInput + " is available at index " + index + " in our bakery.");
 // } else {
-    // alert("We are sorry. " + userInput + " is not available in our bakery.");
+// alert("We are sorry. " + userInput + " is not available in our bakery.");
 // }
 
 // QUESTION 15 //
@@ -99,37 +99,37 @@
 // var hasNumber = false;
 // var charCode = password.charCodeAt(0);
 // if(charCode >= 48 && charCode <= 57){
-    // alert("Password should not start with a number");
+// alert("Password should not start with a number");
 // }else if(password.length < 6){
-    // alert("Password should be atleast 6 characters long");
+// alert("Password should be atleast 6 characters long");
 // }else{
-    // for(var i = 0; i < password.length; i++){
-        // var code = password.charCodeAt(i);
-        // if ((code >= 65 && code <= 90) || (code >= 97 && code <= 122)){
-            // hasAlphabet = true;
-        // }else if (code >= 48 && code <= 57){
-            // hasNumber = true;
-        // }
-    // }
-    // if(hasAlphabet && hasNumber){
-        // alert("Valid Password!");
-    // }else{
-        // alert("Please enter a valid password");
-    // }
+// for(var i = 0; i < password.length; i++){
+// var code = password.charCodeAt(i);
+// if ((code >= 65 && code <= 90) || (code >= 97 && code <= 122)){
+// hasAlphabet = true;
+// }else if (code >= 48 && code <= 57){
+// hasNumber = true;
+// }
+// }
+// if(hasAlphabet && hasNumber){
+// alert("Valid Password!");
+// }else{
+// alert("Please enter a valid password");
+// }
 // }
 
 // QUESTION 16 //
 // var university = "University Of Karachi";
 // var arr = university.split("");
 // for(var i = 0; i < arr.length; i++){
-    // document.writeln(arr[i] + "<br>");
+// document.writeln(arr[i] + "<br>");
 // }
 
 // QUESTION 17 //
 // var userInput = prompt("Enter a string");
 // if(userInput.length > 0){
-    // var lastCharacter = userInput[userInput.length - 1];
-    // document.writeln("User Input: " + userInput + "<br>" + "Last character of input: " + lastCharacter);
+// var lastCharacter = userInput[userInput.length - 1];
+// document.writeln("User Input: " + userInput + "<br>" + "Last character of input: " + lastCharacter);
 // }
 
 // QUESTION 18 //
@@ -138,7 +138,7 @@
 // var words = lowerStr.split(" ");
 // var count = 0;
 // for(var i = 0; i < words.length; i++){
-    // if(words[i] === "the"){
-        // count++;
-    // }}
-    // document.writeln("Text: " + str + "<br>" + "There are "+ count + " occurences of the word 'the'");
+// if(words[i] === "the"){
+// count++;
+// }}
+// document.writeln("Text: " + str + "<br>" + "There are "+ count + " occurences of the word 'the'");

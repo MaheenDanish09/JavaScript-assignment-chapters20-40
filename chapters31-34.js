@@ -23,9 +23,9 @@
 // QUESTION 5 //
 // var date = new Date().getMonth();
 // if(date <= 16){
-    // document.writeln("First fifteen days of the month");
+// document.writeln("First fifteen days of the month");
 // }else{
-    // document.writeln("Last fifteen days of the month");
+// document.writeln("Last fifteen days of the month");
 // };
 
 // QUESTION 6 //
@@ -34,9 +34,9 @@
 // QUESTION 7 //
 // let time = new Date().getHours();
 // if(time < 12){
-    // alert("It's AM");
+// alert("It's AM");
 // }else{
-    // alert("It's PM");
+// alert("It's PM");
 // };
 
 // QUESTION 8 //
@@ -79,7 +79,7 @@
 // let month ="March";
 // let units = 410;
 // let charges = 16;
-// let netAmntPayable = units * charges; 
+// let netAmntPayable = units * charges;
 // let paySurcharge = 350;
 // let grossAmntPayable = netAmntPayable + paySurcharge;
 // document.writeln("Customer name: " + userName + "<br>" + "Current month: " + month + "<br>" + "Number of units: " + units + "<br>" + "Charges per unit: " + charges + "<br><br>" + "Net Amount Payable (within Due Date): " + netAmntPayable + "<br>" + "Late payment surcharge: " + paySurcharge + "<br>" + "Gross Amount Payable (after Due Date): " + grossAmntPayable);
